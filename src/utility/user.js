@@ -18,7 +18,7 @@ const addUser = ({ id, username, room }) => {
 
     if (isUserNameExist) {
         return {
-            error: 'User is already use'
+            error: 'User is already exist in the chat room'
         }
     }
 
